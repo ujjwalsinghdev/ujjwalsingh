@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap"); */
 
 * {
   padding: 0;
@@ -7,19 +8,24 @@
 }
 
 :root {
-  --mainColor: #eaeaea;
-  --secondaryColor: #fff;
+  --mainColor: #121212;
+  --secondaryColor: #121212;
   --borderColor: #c1c1c1;
-  --mainText: black;
+  --mainText: white;
   --secondaryText: #4b5156;
   --themeDotBorder: #24292e;
-  --previewBg: rgb(251, 249, 243, 0.8);
-  --previewShadow: #f0ead6;
+  --previewBg: #121212;
+  --previewShadow: #404040;
   --buttonColor: black;
 }
 
 body * {
   transition: 0.4s;
+}
+
+h4 {
+  line-height: 1.6;
+  font-size: 1.1rem;
 }
 
 h1,
@@ -30,7 +36,7 @@ h5,
 h6,
 strong {
   color: var(--mainText);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h1 {
@@ -76,7 +82,7 @@ textarea {
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* main css */
 .s1 {
@@ -177,7 +183,7 @@ body {
 
 #theme-options-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .theme-dot {
@@ -217,6 +223,13 @@ body {
   padding-bottom: 50px;
 }
 
+@media screen and (max-width: 800px) {
+  .right-column{
+    margin-bottom: 1rem;
+  }
+}
+
+
 #preview-shadow {
   background-color: var(--previewShadow);
   width: 300px;
@@ -227,7 +240,7 @@ body {
 
 #preview {
   width: 300px;
-  height: 180px;
+  height: 200px;
 
   border: 1.5px solid #17a2b8;
   background: var(--previewBg);
@@ -296,7 +309,7 @@ body {
 
 .contact-email {
   text-align: center;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 /* #submit-btn {

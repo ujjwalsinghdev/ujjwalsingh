@@ -10,8 +10,8 @@ for (var i = 0; themeDots.length > i; i++) {
 
 function setTheme(mode) {
   if (mode == "light") {
-    document.getElementById("theme-style").href = "main.css"
-  } else {
     document.getElementById("theme-style").href = "dark.css"
+  } else {
+    document.getElementById("theme-style").href = "main.css"
   }
 }
