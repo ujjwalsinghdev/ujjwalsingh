@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
 
 * {
   padding: 0;
@@ -82,8 +82,7 @@ textarea {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: 'Rubik', sans-serif;}
 /* main css */
 .s1 {
   background: var(--mainColor);
@@ -240,7 +239,7 @@ body {
 
 #preview {
   width: 300px;
-  height: 200px;
+  height: 180px;
 
   border: 1.5px solid #17a2b8;
   background: var(--previewBg);
